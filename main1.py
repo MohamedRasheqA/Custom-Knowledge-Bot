@@ -82,7 +82,7 @@ def main():
     # Set up the QA system
     qa_chain, vectorstore = setup_qa_system()
     
-    st.title("QA System")
+    st.title("Custom-Knowledge-Bot System")
     
     option = st.selectbox("Choose an option:", ["Search documents", "Ask a question", "Exit"])
     
